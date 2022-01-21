@@ -1,0 +1,43 @@
+.App {
+  margin: 0;
+  padding: 0;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.quiz {
+  padding: 20px 50px;
+}
+#mainGrid {
+}
+.gridItem {
+  padding: 30px;
+  border: 2px solid #513872;
+  margin: 20px;
+  border-radius: 5px;
+  cursor: grab;
+}
+
+.header {
+  text-align: center;
+}
+.goHome {
+  position: absolute;
+  top: 80px;
+  left: 40%;
+  border: 5px solid #513872;
+  border-radius: 5px;
+  font-family: Helvetica;
+  font-size: 22px;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.goHome:hover {
+  background-color: #513872;
+  color: white;
+  transition-duration: 1s;
+}
+#nextButton {
+  background-color: #513872;
+}

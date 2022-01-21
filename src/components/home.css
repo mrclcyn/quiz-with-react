@@ -1,0 +1,53 @@
+.header {
+  background-color: rgb(189, 189, 189);
+  margin: 0;
+  padding: 20px 50px;
+  height: 200px;
+}
+
+.navBar {
+  margin: 0;
+  padding: 0;
+  align-items: middle;
+  text-align: center;
+}
+.navItem {
+  padding: 5px 15px;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  border: 2px solid #3d6364;
+  color: #3d6364;
+  border-radius: 3px;
+  margin: 5px;
+}
+.title {
+  font-size: 22px;
+}
+
+.navItem {
+  padding-right: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  border: 2px solid #3d6364;
+  color: #3d6364;
+  border-radius: 3px;
+  margin: 5px;
+}
+.title {
+  font-size: 40px;
+  font-family: Helvetica, sans-serif;
+}
+.quizButton {
+  font-family: Helvetica;
+  font-size: 30px;
+  text-decoration: none;
+  border: 5px solid #513872;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.quizButton:hover {
+  background-color: #513872;
+  color: white;
+  transition-duration: 1s;
+}
